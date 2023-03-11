@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	background-image: url("../public/img/forst.jpg");
+	/* background-size: 400% 400%; */
+	/* animation: gradient 20s ease infinite; */
+	height: 100vh;
+    background-size: cover;
+}
+
+
+.header{
+    text-align: center;
+    margin:1rem;
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    color: azure;
+}
+.app{
+    display: grid;
+    place-content: center;
+    margin: 1rem auto 1rem;
+    max-width: 55%;
+}
+.main{
+    background-color: rgba(12, 1, 1, 0.6);
+    padding: 1rem;
+    max-width: 100%;
+    border-radius: 20px;
+}
+.card{ 
+    background-color: rgba(186, 223, 247, 0.5);
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: 10px 10px 5px 0px rgba(5, 0, 0, 0.75) ;
+    color: aliceblue;
+}
+.card:hover{
+    background-color: rgba(133, 200, 241, 0.8);
+}
+h5{
+    font-size: 1.6rem;
+    font-family: 'Cinzel', serif;
+    color: darkred;
+}
+.ques{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.ques-answer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    border-radius: 50%;
+    background: rgba(252, 251, 251, 0.5);
+    height: 2rem;
+    width: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 2rem;
+}
+p{  
+    margin-top: 3px;
+    text-align: justify;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    text-indent: 1.25rem;
+}
